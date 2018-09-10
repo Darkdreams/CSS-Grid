@@ -7,46 +7,222 @@
 	<link rel="stylesheet" href="grid.css">
 </head>
 <body>
-	<h1>Grid布局</h1>
-	<div class="wrapper">
-		<div class="header">
-			Header
+	<!-- 简单的Grid布局 -->
+	<h1>简单的Grid布局</h1>
+	<div class="grid">
+		<div class="item">
+			Item 1
 		</div>
-		<div class="menu">
-			Menu
+		<div class="item">
+			Item 2
 		</div>
-		<div class="content">
-			Content
+		<div class="item">
+			Item 3
 		</div>
-		<div class="footer">
-			Footer
-		</div>
-	</div>
-	<br><br><br>
-	<div class="index1">
-		<div class="item item1">1</div>
-		<div class="item item2">2</div>
-		<div class="item item3">3</div>
-		<div class="item item4">4</div>
-		<div class="item item5">5</div>
-		<div class="item item6">6</div>
-		<div class="item item7">7</div>
-		<div class="item item8">8</div>
-		<div class="item item9">9</div>
-		<div class="item item10">10</div>
-		<div class="item item11">11</div>
-		<div class="item item12">12</div>
-		<div class="item item13">
-			<div class="flex-item">Flex-Item-1</div>
-			<div class="flex-item">Flex-Item-2</div>
-			<div class="flex-item">
-				<div class="flex-item-wrapper">
-					<div class="flex-item-box">1</div>
-					<div class="flex-item-box">2</div>
-					<div class="flex-item-box">3</div>
-				</div>
-			</div>
+		<div class="item ">
+			Item 4
 		</div>
 	</div>
+	<!-- 网格元素命名，来改变元素的位置 -->
+	<h1>元素命名 布局</h1>
+	<div class="gridArea">
+		<div class="item item-1">
+			Item 1
+		</div>
+		<div class="item item-2">
+			Item 2
+		</div>
+		<div class="item item-3">
+			Item 3
+		</div>
+		<div class="item item-4">
+			Item 4
+		</div>
+	</div>
+	<!-- 通过设置网格线，来改变元素的位置 -->
+	<h1>网格线</h1>
+	<div class="gridLine">
+		<div class="item item-1">
+			Item 1
+		</div>
+		<div class="item item-2">
+			Item 2
+		</div>
+		<div class="item item-3">
+			Item 3
+		</div>
+		<div class="item item-4">
+			Item 4
+		</div>
+	</div>
+	<!-- 栏间距 -->
+	<h1>栏间距</h1>
+	<div class="gridGutters">
+		<div class="item item-1">
+			Item 1
+		</div>
+		<div class="item item-2">
+			Item 2
+		</div>
+		<div class="item item-3">
+			Item 3
+		</div>
+		<div class="item item-4">
+			Item 4
+		</div>
+	</div>
+	<!-- Span关键字 -->
+	<h1>Span关键字</h1>
+	<div class="gridItemSpan">
+		<div class="item item-1">
+			Item 1
+		</div>
+		<div class="item item-2">
+			Item 2
+		</div>
+		<div class="item item-3">
+			Item 3
+		</div>
+		<div class="item item-4">
+			Item 4
+		</div>
+	</div>
+	<!-- Fr单位 -->
+	<h1>Fr单位</h1>
+	<div class="gridFr">
+		<div class="item item-1">
+			Item 1
+		</div>
+		<div class="item item-2">
+			Item 2
+		</div>
+		<div class="item item-3">
+			Item 3
+		</div>
+		<div class="item item-4">
+			Item 4
+		</div>
+	</div>
+	<!-- repeat方法 -->
+	<h1>repeat方法</h1>
+	<div class="gridRepeat">
+		<div class="item item-1">
+			Item 1
+		</div>
+		<div class="item item-2">
+			Item 2
+		</div>
+		<div class="item item-3">
+			Item 3
+		</div>
+		<div class="item item-4">
+			Item 4
+		</div>
+	</div>
+	<!-- minmax方法 -->
+	<h1>minmax方法</h1>
+	<div class="gridMinmax">
+		<div class="item item-1">
+			Item 1
+		</div>
+		<div class="item item-2">
+			Item 2
+		</div>
+		<div class="item item-3">
+			Item 3
+		</div>
+		<div class="item item-4">
+			Item 4
+		</div>
+	</div>
+	<!-- auto-fill和auto-fit关键字 -->
+	<h1>auto-fill和auto-fit关键字</h1>
+	<span>auto-fill</span>
+	<div class="gridAutoFill">
+		<div class="item item-1">
+			Item 1
+		</div>
+		<div class="item item-2">
+			Item 2
+		</div>
+		<div class="item item-3">
+			Item 3
+		</div>
+		<div class="item item-4">
+			Item 4
+		</div>
+		<div class="item item-5">
+			Item 5
+		</div>
+		<div class="item item-6">
+			Item 6
+		</div>
+		<div class="item item-7">
+			Item 7
+		</div>
+		<div class="item item-8">
+			Item 8
+		</div>
+	</div>
+	<br>
+	<span>auto-fit</span>
+	<div class="gridAutoFit">
+		<div class="item item-1">
+			Item 1
+		</div>
+		<div class="item item-2">
+			Item 2
+		</div>
+		<div class="item item-3">
+			Item 3
+		</div>
+		<div class="item item-4">
+			Item 4
+		</div>
+		<div class="item item-5">
+			Item 5
+		</div>
+		<div class="item item-6">
+			Item 6
+		</div>
+		<div class="item item-7">
+			Item 7
+		</div>
+		<div class="item item-8">
+			Item 8
+		</div>
+	</div>
+	<!-- min-content/max-content关键字和fit-content方法 -->
+	<!-- <h1>min-content/max-content关键字和fit-content方法</h1>
+	<span>min-content</span>
+	<div class="gridMinContent">
+		<div class="item item-1">
+			Item 1
+		</div>
+		<div class="item item-2">
+			Item 2
+		</div>
+		<div class="item item-3">
+			Item 3
+		</div>
+		<div class="item item-4">
+			Item 4
+		</div>
+	</div>
+	<span>max-content</span>
+	<div class="gridMaxContent">
+		<div class="item item-1">
+			Item 1
+		</div>
+		<div class="item item-2">
+			Item 2
+		</div>
+		<div class="item item-3">
+			Item 3
+		</div>
+		<div class="item item-4">
+			Item 4
+		</div>
+	</div> -->
 </body>
 </html>
